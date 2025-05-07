@@ -1,4 +1,5 @@
 import { CheckCircle } from "lucide-react";
+import growthChart from "../../assets/growth-chart.svg";
 
 export default function CaseStudy() {
   const results = [
@@ -27,8 +28,8 @@ export default function CaseStudy() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img className="rounded-xl shadow-xl mx-auto" 
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&h=500" 
-                alt="Digital marketing success with growth charts" />
+                src={growthChart} 
+                alt="SaaS company conversion rate growth chart" />
           </div>
           
           <div>

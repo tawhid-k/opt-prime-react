@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import aiOptimizationIllustration from "../../assets/ai-optimization-illustration.svg";
+import userProfile from "../../assets/user-profile.svg";
 
 export default function Hero() {
   return (
@@ -57,9 +59,9 @@ export default function Hero() {
             </div>
             <div className="mt-8 flex items-center space-x-2 text-gray-600">
               <div className="flex -space-x-2">
-                <img className="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120" alt="User avatar" />
-                <img className="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120" alt="User avatar" />
-                <img className="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120" alt="User avatar" />
+                <img className="w-10 h-10 rounded-full border-2 border-white" src={userProfile} alt="Client avatar" />
+                <img className="w-10 h-10 rounded-full border-2 border-white" src={userProfile} alt="Client avatar" />
+                <img className="w-10 h-10 rounded-full border-2 border-white" src={userProfile} alt="Client avatar" />
               </div>
               <p><span className="font-medium">100+</span> business owners trust OptimizePrimeAI</p>
             </div>
@@ -69,8 +71,8 @@ export default function Hero() {
               <div className="absolute -top-4 -right-4 w-64 h-64 bg-accent/20 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
               <div className="absolute -bottom-8 -left-4 w-64 h-64 bg-secondary/20 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
               <img className="relative rounded-2xl shadow-xl mx-auto" 
-                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&h=500" 
-                  alt="Business professionals using AI tools for optimization" />
+                  src={aiOptimizationIllustration} 
+                  alt="AI-powered landing page optimization illustration" />
             </div>
           </div>
         </div>

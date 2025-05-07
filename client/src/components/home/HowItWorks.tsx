@@ -1,3 +1,5 @@
+import analyticsDashboard from "../../assets/analytics-dashboard.svg";
+
 export default function HowItWorks() {
   const steps = [
     {
@@ -53,8 +55,8 @@ export default function HowItWorks() {
           
           <div>
             <img className="rounded-xl shadow-xl mx-auto" 
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&h=500" 
-                alt="Landing page optimization visualization with analytics dashboard" />
+                src={analyticsDashboard} 
+                alt="AI analytics dashboard for landing page optimization" />
           </div>
         </div>
       </div>
