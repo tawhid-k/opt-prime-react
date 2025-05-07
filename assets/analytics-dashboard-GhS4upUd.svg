@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="500" viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashboard Background -->
+  <rect x="50" y="50" width="600" height="400" rx="15" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Header Section -->
+  <rect x="50" y="50" width="600" height="60" rx="15" fill="#7c3aed" stroke="#7c3aed" stroke-width="0"/>
+  <rect x="50" y="50" width="600" height="30" rx="15" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="0"/>
+  <text x="80" y="85" font-family="Arial" font-size="16" font-weight="bold" fill="white">OptimizePrime AI Dashboard</text>
+  
+  <!-- Left Sidebar -->
+  <rect x="50" y="110" width="150" height="340" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0"/>
+  
+  <!-- Sidebar Menu Items -->
+  <rect x="65" y="130" width="120" height="35" rx="5" fill="#7c3aed" stroke="#7c3aed" stroke-width="0"/>
+  <text x="85" y="152" font-family="Arial" font-size="12" fill="white">Dashboard</text>
+  
+  <rect x="65" y="175" width="120" height="35" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="85" y="197" font-family="Arial" font-size="12" fill="#64748b">Analytics</text>
+  
+  <rect x="65" y="220" width="120" height="35" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="85" y="242" font-family="Arial" font-size="12" fill="#64748b">Heatmaps</text>
+  
+  <rect x="65" y="265" width="120" height="35" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="85" y="287" font-family="Arial" font-size="12" fill="#64748b">A/B Tests</text>
+  
+  <rect x="65" y="310" width="120" height="35" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="85" y="332" font-family="Arial" font-size="12" fill="#64748b">Reports</text>
+  
+  <!-- Main Content Area -->
+  <rect x="200" y="110" width="450" height="340" fill="white" stroke="#e2e8f0" stroke-width="0"/>
+  
+  <!-- Summary Cards -->
+  <rect x="220" y="130" width="130" height="90" rx="5" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="235" y="155" font-family="Arial" font-size="12" fill="#64748b">Conversion Rate</text>
+  <text x="235" y="185" font-family="Arial" font-size="22" font-weight="bold" fill="#7c3aed">4.8%</text>
+  <text x="235" y="205" font-family="Arial" font-size="12" fill="#10b981">↑ 42%</text>
+  
+  <rect x="360" y="130" width="130" height="90" rx="5" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="375" y="155" font-family="Arial" font-size="12" fill="#64748b">Bounce Rate</text>
+  <text x="375" y="185" font-family="Arial" font-size="22" font-weight="bold" fill="#7c3aed">32%</text>
+  <text x="375" y="205" font-family="Arial" font-size="12" fill="#10b981">↓ 18%</text>
+  
+  <rect x="500" y="130" width="130" height="90" rx="5" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="515" y="155" font-family="Arial" font-size="12" fill="#64748b">Avg. Session</text>
+  <text x="515" y="185" font-family="Arial" font-size="22" font-weight="bold" fill="#7c3aed">2:45</text>
+  <text x="515" y="205" font-family="Arial" font-size="12" fill="#10b981">↑ 27%</text>
+  
+  <!-- Line Chart -->
+  <rect x="220" y="240" width="410" height="190" rx="5" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="240" y="270" font-family="Arial" font-size="14" font-weight="bold" fill="#1e293b">Conversion Optimization Progress</text>
+  
+  <!-- Chart Grid -->
+  <line x1="240" y1="400" x2="600" y2="400" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="240" y1="360" x2="600" y2="360" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2"/>
+  <line x1="240" y1="320" x2="600" y2="320" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2"/>
+  <line x1="240" y1="280" x2="600" y2="280" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2"/>
+  
+  <!-- X-axis Labels -->
+  <text x="240" y="415" font-family="Arial" font-size="10" fill="#64748b">Jan</text>
+  <text x="300" y="415" font-family="Arial" font-size="10" fill="#64748b">Feb</text>
+  <text x="360" y="415" font-family="Arial" font-size="10" fill="#64748b">Mar</text>
+  <text x="420" y="415" font-family="Arial" font-size="10" fill="#64748b">Apr</text>
+  <text x="480" y="415" font-family="Arial" font-size="10" fill="#64748b">May</text>
+  <text x="540" y="415" font-family="Arial" font-size="10" fill="#64748b">Jun</text>
+  
+  <!-- Y-axis Labels -->
+  <text x="225" y="400" font-family="Arial" font-size="10" text-anchor="end" fill="#64748b">0%</text>
+  <text x="225" y="360" font-family="Arial" font-size="10" text-anchor="end" fill="#64748b">2%</text>
+  <text x="225" y="320" font-family="Arial" font-size="10" text-anchor="end" fill="#64748b">4%</text>
+  <text x="225" y="280" font-family="Arial" font-size="10" text-anchor="end" fill="#64748b">6%</text>
+  
+  <!-- Line Chart Data Primary -->
+  <polyline points="240,380 300,365 360,350 420,320 480,300 540,280" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <circle cx="240" cy="380" r="4" fill="#7c3aed"/>
+  <circle cx="300" cy="365" r="4" fill="#7c3aed"/>
+  <circle cx="360" cy="350" r="4" fill="#7c3aed"/>
+  <circle cx="420" cy="320" r="4" fill="#7c3aed"/>
+  <circle cx="480" cy="300" r="4" fill="#7c3aed"/>
+  <circle cx="540" cy="280" r="4" fill="#7c3aed"/>
+  
+  <!-- Line Chart Data Secondary -->
+  <polyline points="240,390 300,380 360,370 420,355 480,340 540,335" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="0"/>
+  <circle cx="240" cy="390" r="3" fill="#0ea5e9"/>
+  <circle cx="300" cy="380" r="3" fill="#0ea5e9"/>
+  <circle cx="360" cy="370" r="3" fill="#0ea5e9"/>
+  <circle cx="420" cy="355" r="3" fill="#0ea5e9"/>
+  <circle cx="480" cy="340" r="3" fill="#0ea5e9"/>
+  <circle cx="540" cy="335" r="3" fill="#0ea5e9"/>
+  
+  <!-- Legend -->
+  <circle cx="450" cy="270" r="4" fill="#7c3aed"/>
+  <text x="460" y="274" font-family="Arial" font-size="10" fill="#64748b">After Optimization</text>
+  <circle cx="550" cy="270" r="4" fill="#0ea5e9"/>
+  <text x="560" y="274" font-family="Arial" font-size="10" fill="#64748b">Before</text>
+</svg>
