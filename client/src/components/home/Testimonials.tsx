@@ -1,24 +1,25 @@
 import { useState, useRef, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import userProfile from "../../assets/user-profile.svg";
 
 const testimonials = [
   {
     quote: "OptimizePrimeAI transformed our landing page performance in just two weeks. Our conversion rate increased by 42% and our cost per acquisition dropped significantly. The AI-driven insights were eye-opening.",
     name: "Michael Johnson",
     title: "CMO, TechVision Inc.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120"
+    image: userProfile
   },
   {
     quote: "As a small business, every marketing dollar counts. OptimizePrimeAI helped us maximize our ROI by transforming our landing page. We saw a 28% increase in lead quality and a 35% boost in conversions.",
     name: "Sarah Williams",
     title: "Founder, Bright Solutions",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120"
+    image: userProfile
   },
   {
     quote: "The ongoing optimization package has been a game-changer for our e-commerce business. In just 3 months, our product landing pages have seen a 52% increase in conversions. The continuous A/B testing approach really works.",
     name: "David Chen",
     title: "CEO, StyleHub",
-    image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120"
+    image: userProfile
   }
 ];
 
