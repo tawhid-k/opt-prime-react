@@ -93,6 +93,3 @@ npm run dev
 - Full Optimization ($2,499)
 - Ongoing Optimization ($1,499/mo)
 
-## 📄 License
-
-[MIT License](LICENSE)
